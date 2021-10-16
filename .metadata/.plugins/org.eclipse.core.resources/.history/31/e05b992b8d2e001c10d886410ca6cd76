@@ -1,0 +1,7 @@
+class QueueAvecPriorite extends Queue implements IQueueAvecPriorite{
+	@Override
+	public Object comparator() {
+		return null;
+	}
+	private void secretQAP(){}
+}

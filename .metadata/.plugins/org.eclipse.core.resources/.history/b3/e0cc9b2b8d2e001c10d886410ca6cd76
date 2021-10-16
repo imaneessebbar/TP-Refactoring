@@ -1,0 +1,18 @@
+
+public class Queue extends Liste {
+
+	public Queue() {
+		super();
+	}
+
+	@Override
+	public Object peek() {
+		return null;
+	}
+
+	@Override
+	public Object poll() {
+		return null;
+	}
+
+}

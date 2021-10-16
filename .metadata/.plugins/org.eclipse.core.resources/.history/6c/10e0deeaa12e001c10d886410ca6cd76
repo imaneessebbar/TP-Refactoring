@@ -1,0 +1,42 @@
+/* *****************
+ * ES-SEBBAR Imane 
+ * ELMAROUNI Majda 
+ ******************* */
+
+// remplacer le rectangle qui est un attribut de la classe rectangleColore de sort que la classe RectangleColore hérite de la classe Rectangle
+
+public class RectangleColore extends Rectangle {
+
+	//int l; 
+	//int L;
+	String color;
+	Rectangle r ;
+	
+	RectangleColore(){
+	}
+	public RectangleColore(Rectangle r, String color) {
+		this.color = color;
+	}
+	
+	public void setRectangle(Rectangle r) {
+		this.r = r;
+		testCote();
+	}
+	public Rectangle getRectangle() {
+		return r;
+	}
+	public void setColor(String color) {
+		this.color = color;
+	}
+	public String getColor() {
+		return color;
+	}
+	
+	void testCote() {
+		super.testCote();
+	}
+	public String toString() {
+		String s = r.toString();
+		return s+"\nCouleur : "+color;
+	}
+}

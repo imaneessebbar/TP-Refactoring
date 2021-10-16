@@ -1,0 +1,37 @@
+/* *****************
+ * ES-SEBBAR Imane 
+ * ELMAROUNI Majda 
+ ******************* */
+public class Rectangle {
+	private int l;
+	private int L;
+	
+	Rectangle(){}
+	
+	Rectangle(int L, int l){
+		this.l = l;
+		this.L = L;
+		//testCote();
+	}
+	public void setl(int l) {
+		this.l = l;
+	}
+	public void setL(int L) {
+		this.L = L;
+	}
+	public int getl() {
+		return l;
+	}
+	public int getL() {
+		return L;
+	}
+	void testCote() {
+		int c= L;
+		L= Math.max(L,l);
+		l= Math.min(c,l);
+	}
+	
+	public String toString() {
+		return "Longeur : "+L+"\n Largeur : "+l;
+	}
+}

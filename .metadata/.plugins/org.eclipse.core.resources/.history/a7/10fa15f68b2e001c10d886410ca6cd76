@@ -1,0 +1,18 @@
+
+public class Liste {
+
+	public Liste() {
+		super();
+	}
+
+	@Override
+	public boolean add(Object o) {
+		return true;
+	}
+
+	@Override
+	public boolean isEmpty() {
+		return true;
+	}
+
+}

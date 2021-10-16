@@ -1,0 +1,11 @@
+1634390819243	Extract interface 'IListChainee'
+1634390865462	Extract interface 'IListeTableau'
+1634390892088	Extract interface 'IQueueAvecPriorite'
+1634390915808	Extract interface 'IQueueDoubleEntree'
+1634392740634	Extract superclass 'SuperClass'
+1634392902255	Delete element
+1634393733473	Delete element
+1634393845626	Extract superclass 'Liste'
+1634394235237	Delete element
+1634394258843	Extract superclass 'Queue'
+1634394341376	Delete element

@@ -1,0 +1,54 @@
+/* *****************
+ * ES-SEBBAR Imane 
+ * ELMAROUNI Majda 
+ ******************* */
+
+// remplacer l'héritage : un rectanglecolore peu avoir un attribut rectangle et une couleur
+// inline class pour avoir Rectangle r comme attribut de la classe RectangleColore
+
+public class RectangleColore extends Rectangle {
+
+	int l; 
+	int L;
+	String color;
+	
+	RectangleColore(){
+		super();
+	}
+	public RectangleColore(int l, int L, String color) {
+		super(l,L);
+		//testCote();
+		this.color = color;
+	}
+	
+	public void setl(int l) {
+		this.l = l;
+		//testCote();
+	}
+	public void setL(int L) {
+		this.L = L;
+		//testCote();
+	}
+	public int getl() {
+		return l;
+	}
+	public int getL() {
+		return L;
+	}
+	public void setColor(String color) {
+		this.color = color;
+	}
+	public String getColor() {
+		return color;
+	}
+	
+	void testCote() {
+		int c= L;
+		L= Math.max(L,l);
+		l= Math.min(c,l);
+	}
+	public String toString() {
+		String s = super.toString();
+		return s+"\n Couleur : "+color;
+	}
+}

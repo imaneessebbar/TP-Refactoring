@@ -1,0 +1,12 @@
+class QueueDoubleEntree extends Liste implements IQueueDoubleEntree{
+	
+	@Override
+	public Object peek() {
+		return null;
+	}
+	@Override
+	public Object poll() {
+		return null;
+	}
+	private void secretQDE(){}
+}

@@ -1,0 +1,23 @@
+class ListeChainee implements IListChainee{
+	@Override
+	public Object get(int i) {
+		return null;
+	}
+	@Override
+	public Object peek() {
+		return null;
+	}
+	@Override
+	public Object poll() {
+		return null;
+	}
+	private void secretLC(){}
+	@Override
+	public boolean add(Object o) {
+		return false;
+	}
+	@Override
+	public boolean isEmpty() {
+		return false;
+	}
+}
